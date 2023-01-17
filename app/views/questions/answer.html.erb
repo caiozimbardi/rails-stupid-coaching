@@ -1,0 +1,19 @@
+
+<div class="container col-12">
+<h1>Stupid Coaching</h1>
+
+<div class="card col-6 m-3">
+  <blockquote class="blockquote">
+  <p class="mb-3"><%= @input %></p>
+  <footer class="blockquote-footer">You!</footer>
+</blockquote>
+</div>
+
+<div id="reply" class="card col-6 m-3">
+  <blockquote class="blockquote">
+  <p class="mb-3"><%= @coach %></p>
+  <footer class="blockquote-footer">Your coach!</footer>
+</blockquote>
+</div>
+<button class="btn btn-primary btn-lg"><%= link_to "Ask again!", ask_path %></button>
+</div>

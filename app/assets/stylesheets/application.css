@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+ #reply {
+  background-color: rgb(212, 248, 236);
+ }
+
+ .card {
+  border: none;
+ }
+
+ button a {
+  color: white;
+  text-decoration: none;
+ }
