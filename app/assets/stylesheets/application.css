@@ -26,3 +26,13 @@
   color: white;
   text-decoration: none;
  }
+
+ h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #333;
+  margin-top: 50px;
+}
+
